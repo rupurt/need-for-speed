@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: need_for_speed_development
+  host: localhost
+  user: <%= `whoami` %>
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: need_for_speed_test
+  host: localhost
+  user: <%= `whoami` %>
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: need_for_speed_production
+  host: localhost
+  user: <%= `whoami` %>
+  password:
