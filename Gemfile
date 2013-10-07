@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'active_model_serializers'
 gem 'puma'
 gem 'rails_12factor'
+gem 'newrelic_rpm'
 
 platforms :mri do
   gem 'pg'

@@ -61,6 +61,7 @@ GEM
     mime-types (1.25)
     minitest (4.7.5)
     multi_json (1.8.1)
+    newrelic_rpm (3.6.7.159)
     pg (0.17.0)
     polyglot (0.3.3)
     pry (0.9.12.2)
@@ -140,6 +141,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jdbc-postgres
   jquery-rails
+  newrelic_rpm
   pg
   pry
   puma
