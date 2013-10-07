@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'active_model_serializers'
 gem 'puma'
+gem 'rails_12factor'
 
 platforms :mri do
   gem 'pg'
